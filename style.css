@@ -10,9 +10,11 @@ body {
 
 #app {
     background-color: #fff;
+    border-radius: 15px;
     padding: 10px 25px;
     width: 75%;
     max-width: 350px;
+    opacity: 0.8;
     box-shadow: 2px 2px 5px 0px #0505055e;
 }
 
