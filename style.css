@@ -1,7 +1,7 @@
 body {
     background: #40E0D0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #00bbff, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #02f1f9, #b9b6b3, #4d797a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     justify-content: center;
     align-items: center;
