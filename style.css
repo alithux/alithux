@@ -1,0 +1,95 @@
+body {
+    background: #40E0D0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00bbff, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #02f1f9, #b9b6b3, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#app {
+    background-color: #fff;
+    padding: 10px 25px;
+    width: 75%;
+    max-width: 350px;
+    box-shadow: 2px 2px 5px 0px #0505055e;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0px #0000002b;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+
+#form input {
+    border: none;
+    width: 80%;
+}
+
+#form input:focus-visible {
+    outline:none;
+}
+
+#add-btn {
+    box-shadow: none;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #40E0D0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.close-btn {
+    float: right;
+    text-decoration: none;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.done label {
+    text-decoration: line-through;
+    color: grey;
+}

@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="app">
+        <h1>My ToDO App</h1>
+
+        <div id="form" class="card">
+            <input type="text" placeholder="Enter ToDo here">
+            <a href="#" id="add-btn">+</a>
+        </div>
+
+        <ul>
+            <li class="card todo-item">
+                <input type="checkbox" id="todo-1">
+                <label for="todo-1">Learn JavaScript Basics</label>
+                <a href="#" class="close-btn">&#9747;</a>
+            </li>
+
+            <li class="card todo-item">
+                <input type="checkbox" id="todo-2">
+                <label for="todo-2">Learn React & React Native</label>
+                <a href="#" class="close-btn">&#9747;</a>
+            </li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
